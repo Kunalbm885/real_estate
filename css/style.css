@@ -626,7 +626,7 @@ button[type=submit] {
   margin-bottom: 30px;
 }
 .side-navigation figure img {
-  height: 40px;
+  height: 75px;
 }
 .side-navigation address {
   display: block;
@@ -722,14 +722,15 @@ button[type=submit] {
   margin-left: 0;
 }
 .navbar .container .upper-side .logo img {
-  height: 48px;
+  height: 80px;
 }
 .navbar .container .upper-side .phone-email {
-  margin-right: 0;
+  margin-right:40px  ;
   margin-left: auto;
   margin-top: 5px;
   text-align: right;
   color: #fff;
+  display: flex;
 }
 .navbar .container .upper-side .phone-email img {
   float: right;
@@ -738,6 +739,7 @@ button[type=submit] {
 }
 .navbar .container .upper-side .phone-email h4 {
   margin-bottom: -5px;
+  margin-right: 40px;
   margin-top: 3px;
   font-size: 17px;
   font-weight: 600;
@@ -896,7 +898,7 @@ button[type=submit] {
   align-items: center;
   justify-content: center;
   align-content: center;
-  background-size: auto 120%;
+  background-size: cover;
 }
 .slider .slider-container .swiper-slide:after {
   content: "";
@@ -1222,7 +1224,6 @@ button[type=submit] {
 }
 .intro .content-box p {
   display: block;
-  padding-right: 40%;
   margin-bottom: 30px;
 }
 .intro .content-box a {
@@ -1899,7 +1900,7 @@ button[type=submit] {
   color: #fff;
   padding: 50px;
   margin-bottom: 50px;
-  float: left;
+  /* float: left; */
   margin-right: 100px;
 }
 .apartment .property-infos .odometer {
